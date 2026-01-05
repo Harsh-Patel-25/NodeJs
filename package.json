@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harsh-Patel-25/NodeJs.git"
+  },
+  "author": "Harsh Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harsh-Patel-25/NodeJs/issues"
+  },
+  "homepage": "https://github.com/Harsh-Patel-25/NodeJs#readme",
+  "type": "module",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}

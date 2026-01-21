@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const instaData = require("./data.json");
+
 
 let port = 3000;
 
@@ -19,10 +19,19 @@ app.get("/rolldice", (req, res) => {
   res.render("rolldice.ejs", { diceVal });
 });
 app.get("/ig/:username", (req, res) => {
-  let { username } = req.params;
+  // const followers = ["alice", "bob", "charlie", "david"];
+  // let {username} = req.params;
+  // console.log(username);
+  const instaData = require("./data.json");
+  let {username} = req.params;
   const data = instaData[username];
-  console.log(data);
-  res.render("instagram.ejs", { data });
+  if ( data ) {
+    res.render("instagram.ejs", { data });
+  } else {
+    res.render("error.ejs");
+  }
+  
+  
 });
 
 app.listen(port, () => {

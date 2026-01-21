@@ -1,45 +1,52 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "harsh",
-      "name": "Harsh Patel",
-      "profilePic": "https://i.pravatar.cc/150?img=1",
-      "followers": 1250,
-      "following": 340,
-      "posts": [
-        {
-          "postId": 101,
-          "image": "https://picsum.photos/500/500?random=1",
-          "caption": "Chasing goals, not people 💪",
-          "likes": 230,
-          "comments": 18
-        },
-        {
-          "postId": 102,
-          "image": "https://picsum.photos/500/500?random=2",
-          "caption": "Code. Sleep. Repeat 💻",
-          "likes": 410,
-          "comments": 32
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "username": "ananya",
-      "name": "Ananya Sharma",
-      "profilePic": "https://i.pravatar.cc/150?img=5",
-      "followers": 2890,
-      "following": 180,
-      "posts": [
-        {
-          "postId": 201,
-          "image": "https://picsum.photos/500/500?random=3",
-          "caption": "Frontend vibes ✨",
-          "likes": 980,
-          "comments": 76
-        }
-      ]
-    }
-  ]
+  "harsh": {
+    "id": 1,
+    "username": "harsh",
+    "name": "Harsh Patel",
+    "profilePic": "https://i.pravatar.cc/150?img=1",
+    "followers": 1250,
+    "following": 340,
+    "posts": [
+      {
+        "image": "https://picsum.photos/500/500?random=1",
+        "caption": "Chasing goals, not people 💪",
+        "likes": 230,
+        "comments": 18
+      },
+      {
+        "image": "https://picsum.photos/500/500?random=2",
+        "caption": "Code. Sleep. Repeat 💻",
+        "likes": 410,
+        "comments": 32
+      },
+      {
+        "image": "https://picsum.photos/500/500?random=4",
+        "caption": "Nature's beauty 🌄",
+        "likes": 150,
+        "comments": 12
+      }
+    ]
+  },
+  "janvi": {
+    "id": 2,
+    "username": "janvi",
+    "name": "Janvi Patel",
+    "profilePic": "https://i.pravatar.cc/150?img=5",
+    "followers": 2890,
+    "following": 180,
+    "posts": [
+      {
+        "image": "https://picsum.photos/500/500?random=3",
+        "caption": "Frontend vibes ✨",
+        "likes": 980,
+        "comments": 76
+      },
+      {
+        "image": "https://picsum.photos/500/500?random=5",
+        "caption": "Design is intelligence made visible 🎨",
+        "likes": 760,
+        "comments": 54
+      }
+    ]
+  }
 }

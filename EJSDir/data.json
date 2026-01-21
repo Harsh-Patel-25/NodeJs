@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "harsh",
+      "name": "Harsh Patel",
+      "profilePic": "https://i.pravatar.cc/150?img=1",
+      "followers": 1250,
+      "following": 340,
+      "posts": [
+        {
+          "postId": 101,
+          "image": "https://picsum.photos/500/500?random=1",
+          "caption": "Chasing goals, not people 💪",
+          "likes": 230,
+          "comments": 18
+        },
+        {
+          "postId": 102,
+          "image": "https://picsum.photos/500/500?random=2",
+          "caption": "Code. Sleep. Repeat 💻",
+          "likes": 410,
+          "comments": 32
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "ananya",
+      "name": "Ananya Sharma",
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "followers": 2890,
+      "following": 180,
+      "posts": [
+        {
+          "postId": 201,
+          "image": "https://picsum.photos/500/500?random=3",
+          "caption": "Frontend vibes ✨",
+          "likes": 980,
+          "comments": 76
+        }
+      ]
+    }
+  ]
+}

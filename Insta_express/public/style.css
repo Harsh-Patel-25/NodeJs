@@ -1,0 +1,13 @@
+.img {
+    max-width: 30%;
+    height: auto;
+}
+.post {
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 50px;
+}
+.new{
+    margin: 20px;
+}

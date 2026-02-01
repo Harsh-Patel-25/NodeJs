@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+</head>
+<body>
+    <h2>Create New Post:</h2>
+    <form method="post" action="/posts">
+        <input type="text" placeholder="enter username" id="username" name="username"><br><br>
+        <textarea name="content" id="content" placeholder="enter content"></textarea><br><br>
+        <select name="image" id="image">
+            <option value="uploads/img1.jpg">BMW</option>
+            <option value="uploads/img2.jpg">Lamborghini</option>
+            <option value="uploads/img3.jpg">Pagani</option>
+            <option value="uploads/img4.jpg">Koeinigsegg</option>
+            <option value="uploads/img5.jpg">Ferrari</option>
+            <option value="uploads/img6.jpg">Mercedes</option>
+            <option value="uploads/img7.jpg">Dodge</option>
+        </select><br><br>       
+        <input type="text" placeholder="enter date of upload" name="date"><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

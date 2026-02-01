@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post</title>
+</head>
+
+<body>
+    <h2>Edit your post.</h2>
+    <p>Post id : <%= post.id %></p>
+    <p>Post username: @<%= post.username %></p>
+    <form method="post" action="/posts/<%= post.id %>?_method=PATCH">
+        <textarea rows="10" cols="35" name="content" id=""><%=post.content%></textarea><br><br>
+        <select name="image" id="image">
+            <option value="uploads/img1.jpg">BMW</option>
+            <option value="uploads/img2.jpg">Lamborghini</option>
+            <option value="uploads/img3.jpg">Pagani</option>
+            <option value="uploads/img4.jpg">Koeinigsegg</option>
+            <option value="uploads/img5.jpg">Ferrari</option>
+            <option value="uploads/img6.jpg">Mercedes</option>
+            <option value="uploads/img7.jpg">Dodge</option>
+        </select><br><br>
+        <input type="text" placeholder="enter date of upload" name="date"><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
